@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="User Flow" max_length="40" name="x_ananc_alight4sn_user_flow" sizeclass="0" type="collection">
+        <element label="User Flow ID" max_length="40" name="user_flow_id" type="string"/>
+        <element label="User Variable 1" max_length="500" name="user_variable_1" type="string"/>
+        <element label="User Variable 2" max_length="500" name="user_variable_2" type="string"/>
+        <element label="User Variable 3" max_length="500" name="user_variable_3" type="string"/>
+    </element>
+</database>

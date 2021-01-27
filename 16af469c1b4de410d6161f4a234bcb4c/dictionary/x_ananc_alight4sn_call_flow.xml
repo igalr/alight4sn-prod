@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Call Flow" max_length="40" name="x_ananc_alight4sn_call_flow" sizeclass="0" type="collection">
+        <element choice="1" hint="Select the Alight Action for this call flow step" label="Action" mandatory="true" max_length="40" name="action" type="choice">
+            <choice/>
+        </element>
+        <element hint="Describe what this step in the call flow does" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element hint="The flow configures an Action.  Select the Flow associated with the selected Action" label="Flow" mandatory="true" max_length="32" name="flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot; +current.action" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Enter the Lex Intent that you want to assign to this step" label="Intent" max_length="40" name="intent" type="string"/>
+        <element hint="Visual indication of the start of a call flow section.  Visual only - has no effect on operation" label="Label" max_length="40" name="label" type="string"/>
+        <element hint="If set, will jump to the Path entered after completing this step's Action" label="Next Path" max_length="40" name="next_path" type="string"/>
+        <element hint="If entered, the call will be transferred to the Zone defined here" label="Next Path Zone" max_length="40" name="next_path_zone" type="string"/>
+        <element hint="Defines the prior step in the call tree" label="Parent" max_length="32" name="parent" reference="x_ananc_alight4sn_call_flow" type="reference"/>
+        <element hint="Enter the Path that uniquely identifies this call flow step" label="Path" mandatory="true" max_length="40" name="path" type="string"/>
+        <element hint="Enter a Reason that reflects the reason the person called" label="Reason" max_length="40" name="reason" type="string"/>
+        <element hint="Enter a Subreason to refine the caller's reason for calling" label="Subreason" max_length="40" name="subreason" type="string"/>
+        <element label="Zone" max_length="40" name="zone" type="string"/>
+        <index name="index">
+            <element name="parent"/>
+        </index>
+        <index name="index2">
+            <element name="flow"/>
+        </index>
+    </element>
+</database>

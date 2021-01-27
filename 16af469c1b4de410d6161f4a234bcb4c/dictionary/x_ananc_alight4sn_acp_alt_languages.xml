@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="ACP Alt Languages" max_length="40" name="x_ananc_alight4sn_acp_alt_languages" sizeclass="0" type="collection">
+        <element label="Language" max_length="40" name="language" type="string"/>
+        <element label="Prompt" max_length="40" name="prompt" type="string"/>
+        <element label="Source Prompt" max_length="32" name="source_prompt" reference="x_ananc_alight4sn_alight_control_panel" type="reference"/>
+        <index name="index">
+            <element name="source_prompt"/>
+        </index>
+    </element>
+</database>

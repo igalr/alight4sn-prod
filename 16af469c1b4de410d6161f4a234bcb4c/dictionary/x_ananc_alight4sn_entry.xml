@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Call Entry" max_length="40" name="x_ananc_alight4sn_entry" sizeclass="0" type="collection">
+        <element hint="Select the Path in the Call Flow table where you want the call flow to start" label="Call Flow Entry Point" mandatory="true" max_length="40" name="call_flow_entry_point" type="string"/>
+        <element label="Call Flow Entry Zone" max_length="40" name="call_flow_entry_zone" type="string"/>
+        <element default="default" hint="Enter a phone number to match this entry based on the caller's phone number (CLID, ANI)" label="Customer Number" mandatory="true" max_length="40" name="customer_number" type="string"/>
+        <element hint="Enter a description of this Line" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element default="default" hint="Enter the Amazon Connect phone number (DNIS) that this entry applies to" label="Dialed Number" mandatory="true" max_length="40" name="dialed_number" type="string"/>
+        <element hint="The flow that you select here will run prior to entering the Call Flow table" label="First Flow" mandatory="true" max_length="32" name="first_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;first_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Select the Path in the Call Flow table where you want the call flow to start if the Line is closed" label="Line Closed Entry Point" mandatory="true" max_length="40" name="line_closed_entry_point" type="string"/>
+        <element hint="Enter a user friendly Line Name" label="Line Name" mandatory="true" max_length="40" name="line_name" type="string"/>
+        <element hint="Select the ServiceNow schedule that defines when this Line is open" label="Line Schedule" mandatory="true" max_length="32" name="line_schedule" reference="cmn_schedule" type="reference"/>
+        <element choice="1" default="en" hint="Select the text-to-speech prompt language that will be used for calls to this Line" label="Prompt Language" max_length="40" name="prompt_language" type="choice">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Arabic" sequence="0" value="arb"/>
+                <element inactive="true" inactive_on_update="true" label="Danish" sequence="1" value="da"/>
+                <element inactive="true" inactive_on_update="true" label="English" sequence="2" value="en"/>
+                <element inactive="true" inactive_on_update="true" label="French" sequence="3" value="fr"/>
+                <element inactive="true" inactive_on_update="true" label="German" sequence="4" value="de"/>
+                <element inactive="true" inactive_on_update="true" label="Hindi" sequence="5" value="hi"/>
+                <element inactive="true" inactive_on_update="true" label="Icelandic" sequence="6" value="is"/>
+                <element inactive="true" inactive_on_update="true" label="Italian" sequence="7" value="it"/>
+                <element inactive="true" inactive_on_update="true" label="Japanese" sequence="8" value="ja"/>
+                <element inactive="true" inactive_on_update="true" label="Korean" sequence="9" value="ko"/>
+                <element inactive="true" inactive_on_update="true" label="Norwegian" sequence="10" value="nb"/>
+                <element inactive="true" inactive_on_update="true" label="Polish" sequence="11" value="pl"/>
+                <element inactive="true" inactive_on_update="true" label="Romanian" sequence="12" value="ro"/>
+                <element inactive="true" inactive_on_update="true" label="Russian" sequence="13" value="ru"/>
+                <element inactive="true" inactive_on_update="true" label="Spanish" sequence="14" value="es"/>
+                <element inactive="true" inactive_on_update="true" label="Swedish" sequence="15" value="sv"/>
+                <element inactive="true" inactive_on_update="true" label="Turkish" sequence="16" value="tr"/>
+                <element inactive="true" inactive_on_update="true" label="Welsh" sequence="17" value="cy"/>
+            </choice>
+        </element>
+        <element choice="1" choice_field="time_zone" choice_table="sys_user" hint="Set the time zone to use as the Line Schedule base time" label="Time Zone" mandatory="true" max_length="40" name="time_zone" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="first_flow"/>
+        </index>
+        <index name="index2">
+            <element name="line_schedule"/>
+        </index>
+    </element>
+</database>

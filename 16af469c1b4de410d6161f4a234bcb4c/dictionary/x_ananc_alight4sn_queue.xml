@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Queue" max_length="40" name="x_ananc_alight4sn_queue" sizeclass="2" type="collection">
+        <element hint="If the Callback action is set, the caller will be played this prompt" label="Callback Prompt" max_length="32" name="callback_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element choice="3" default="none" hint="Select who should be recorded in the call" label="Call Record" max_length="40" name="call_record" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="none" sequence="1" value="none"/>
+                <element inactive_on_update="false" label="agent and customer" sequence="2" value="both"/>
+                <element inactive_on_update="false" label="agent" sequence="3" value="agent"/>
+                <element inactive_on_update="false" label="customer" sequence="4" value="customer"/>
+            </choice>
+        </element>
+        <element hint="Enter a description of this Queue" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
+        <element hint="If the Excessive Wait action is set, the caller will be played this prompt" label="Excessive Wait Prompt" max_length="32" name="excessive_wait_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="If the Hang Up action is set, the caller will be played this prompt" label="Hangup Prompt" max_length="32" name="hangup_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element display="true" hint="Sets what the customer will hear if the rep places them on hold" label="Hold Flow" max_length="32" name="hold_flow" reference="x_ananc_alight4sn_lookup" type="reference"/>
+        <element choice="3" default="wait" hint="Set the action to take if there are no agents logged in" label="No Agents Action" max_length="40" name="no_agents_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Overflow" sequence="3" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer" sequence="4" value="transfer"/>
+            </choice>
+        </element>
+        <element hint="If an Overflow action has been set, the call will be transferred to this queue" label="Overflow Queue" max_length="32" name="overflow_queue" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element default="true" hint="Select if a prompt should be played before transferring the call to the queue" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="boolean"/>
+        <element hint="Select if a whisper should be played to the rep on call accept" label="Play Whisper" max_length="40" name="play_whisper" type="boolean"/>
+        <element hint="Defines the customer experience and treatment while waiting in queue" label="Queue Flow" mandatory="true" max_length="32" name="queue_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Defines a unique identifier for this queue" label="Queue ID" mandatory="true" max_length="40" name="queue_id" type="string"/>
+        <element hint="Enter a user friendly Queue name" label="Queue Name" mandatory="true" max_length="40" name="queue_name" type="string"/>
+        <element hint="If the Play Queue Prompt action is set, the caller will be played this prompt" label="Queue Prompt" mandatory="true" max_length="32" name="queue_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
+        <element hint="Select the ServiceNow schedule that defines when this Queue is open" label="Queue Schedule" max_length="32" name="queue_schedule" reference="cmn_schedule" type="reference"/>
+        <element choice="3" default="message" hint="Set the action to take when the call is first placed in queue if the queue is congested" label="T0 Congested Action" max_length="40" name="t0_congested_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No Action" value="wait"/>
+                <element inactive_on_update="false" label="Overflow" value="overflow"/>
+                <element inactive_on_update="false" label="Warning Message" value="message"/>
+            </choice>
+        </element>
+        <element choice="3" default="wait" hint="Set the action to take if the call has exceeded the T1 wait time" label="T1 Action" max_length="40" name="t1_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Offer Callback" sequence="3" value="callback"/>
+                <element inactive_on_update="false" label="Overflow" sequence="4" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer Call" sequence="5" value="transfer"/>
+            </choice>
+        </element>
+        <element default="120" hint="Calls waiting less than this time are considered to have experienced a reasonable wait" label="T1 Threshold" max_length="40" name="t1_threshold" type="integer"/>
+        <element choice="3" default="wait" hint="Set the action to take if the call has exceeded the T2 wait time" label="T2 Action" max_length="40" name="t2_action" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
+                <element inactive_on_update="false" label="Hang Up" sequence="2" value="hangup"/>
+                <element inactive_on_update="false" label="Offer Callback" sequence="3" value="callback"/>
+                <element inactive_on_update="false" label="Overflow" sequence="4" value="overflow"/>
+                <element inactive_on_update="false" label="Transfer Call" sequence="5" value="transfer"/>
+            </choice>
+        </element>
+        <element default="300" hint="Calls exceeding this threshold have experienced an extreme wait time" label="T2 Threshold" max_length="40" name="t2_threshold" type="integer"/>
+        <element hint="Defines what the rep hears when the call is accepted" label="Whisper Flow" max_length="32" name="whisper_flow" reference="x_ananc_alight4sn_lookup" type="reference"/>
+        <index name="index">
+            <element name="hold_flow"/>
+        </index>
+        <index name="index2">
+            <element name="queue_prompt"/>
+        </index>
+        <index name="index3">
+            <element name="callback_prompt"/>
+        </index>
+        <index name="index4">
+            <element name="overflow_queue"/>
+        </index>
+        <index name="index5">
+            <element name="excessive_wait_prompt"/>
+        </index>
+        <index name="index6">
+            <element name="hangup_prompt"/>
+        </index>
+        <index name="index7">
+            <element name="queue_flow"/>
+        </index>
+        <index name="index8">
+            <element name="queue_schedule"/>
+        </index>
+        <index name="index9">
+            <element name="whisper_flow"/>
+        </index>
+    </element>
+</database>
