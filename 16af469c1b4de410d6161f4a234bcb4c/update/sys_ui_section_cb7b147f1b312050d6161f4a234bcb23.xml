@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>c998bc371bb12050d6161f4a234bcb1d</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>28639f401bd2a0108c0021fa234bcbb8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <text>In this panel, you define the text-to-speech languages supported by this Alight deployment.  The language designated as Primary is the language you use for prompt/message entry.  These prompts/messages will be machine translated into all other languages defined in the Alight Language table.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>c998bc371bb12050d6161f4a234bcb1d</element>
+            <element>28639f401bd2a0108c0021fa234bcbb8</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>4d98bc371bb12050d6161f4a234bcb22</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>2c639f401bd2a0108c0021fa234bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,27 +29,27 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>c198bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>ac639f401bd2a0108c0021fa234bcbbd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>language_code</element>
+            <element>language</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>4598bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>20639f401bd2a0108c0021fa234bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,55 +57,69 @@
             <element>active</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>c598bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>a0639f401bd2a0108c0021fa234bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>voice</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>24639f401bd2a0108c0021fa234bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>4</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>4998bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>a4639f401bd2a0108c0021fa234bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>voice</element>
-            <position>5</position>
+            <element>language_code</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>c998bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>28639f401bd2a0108c0021fa234bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>primary</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 22:55:03</sys_created_on>
-            <sys_id>4d98bc371bb12050d6161f4a234bcb23</sys_id>
+            <sys_created_on>2021-02-08 15:05:35</sys_created_on>
+            <sys_id>a8639f401bd2a0108c0021fa234bcbbe</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_language" sys_domain="global" view="Default view">cb7b147f1b312050d6161f4a234bcb23</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 22:55:03</sys_updated_on>
+            <sys_updated_on>2021-02-08 15:05:35</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

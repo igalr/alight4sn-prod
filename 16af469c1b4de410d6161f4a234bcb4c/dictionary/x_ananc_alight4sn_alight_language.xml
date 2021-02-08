@@ -1,31 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Alight Language" max_length="40" name="x_ananc_alight4sn_alight_language" sizeclass="4" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
-        <element choice="3" default="en" label="Language Code" max_length="40" name="language_code" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Arabic" value="arb"/>
-                <element inactive_on_update="false" label="Danish" value="da"/>
-                <element inactive_on_update="false" label="Dutch" value="nl"/>
-                <element inactive_on_update="false" label="English" value="en"/>
-                <element inactive_on_update="false" label="French" value="fr"/>
-                <element inactive_on_update="false" label="German" value="de"/>
-                <element inactive_on_update="false" label="Hindi" value="hi"/>
-                <element inactive_on_update="false" label="Icelandic" value="is"/>
-                <element inactive_on_update="false" label="Italian" value="it"/>
-                <element inactive_on_update="false" label="Japanese" value="ja"/>
-                <element inactive_on_update="false" label="Korean" value="ko"/>
-                <element inactive_on_update="false" label="Mandarin" value="cmn"/>
-                <element inactive_on_update="false" label="Norwegian" value="nb"/>
-                <element inactive_on_update="false" label="Polish" value="pl"/>
-                <element inactive_on_update="false" label="Portuguese" value="pt"/>
-                <element inactive_on_update="false" label="Romanian" value="ro"/>
-                <element inactive_on_update="false" label="Russian" value="ru"/>
-                <element inactive_on_update="false" label="Spanish" value="es"/>
-                <element inactive_on_update="false" label="Swedish" value="sv"/>
-                <element inactive_on_update="false" label="Turkish" value="tr"/>
-                <element inactive_on_update="false" label="Welsh" value="cy"/>
-            </choice>
-        </element>
+        <element display="true" label="Language" max_length="40" name="language" type="string"/>
+        <element label="Language Code" max_length="40" name="language_code" type="string"/>
         <element label="Primary" max_length="40" name="primary" type="boolean"/>
         <element label="Voice" max_length="32" name="voice" reference="x_ananc_alight4sn_polly_languages" reference_qual="javascript:&quot;locale=&quot;+current.language_code" type="reference" use_reference_qualifier="advanced"/>
         <index name="index">

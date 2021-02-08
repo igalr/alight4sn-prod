@@ -6,31 +6,10 @@
         <element hint="Provide a clear description for this Line" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element default="default" hint="Enter the Amazon Connect phone number (DNIS) that this entry applies to" label="Dialed Number" mandatory="true" max_length="40" name="dialed_number" type="string"/>
         <element hint="The flow that you select here will run prior to entering the Call Flow table" label="First Flow" mandatory="true" max_length="32" name="first_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;first_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Language" max_length="32" name="language" reference="x_ananc_alight4sn_alight_language" type="reference"/>
         <element hint="Select the Path in the Call Flow table where you want the call flow to start if the Line is closed" label="Line Closed Entry Point" mandatory="true" max_length="40" name="line_closed_entry_point" type="string"/>
         <element hint="Enter a user friendly Line Name" label="Line Name" mandatory="true" max_length="40" name="line_name" type="string"/>
         <element hint="Select the ServiceNow schedule that defines when this Line is open" label="Line Schedule" mandatory="true" max_length="32" name="line_schedule" reference="cmn_schedule" type="reference"/>
-        <element choice="1" hint="Select the text-to-speech prompt language that will be used for calls to this Line" label="Prompt Language" mandatory="true" max_length="40" name="prompt_language" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Arabic" sequence="0" value="arb"/>
-                <element inactive_on_update="false" label="Danish" sequence="1" value="da"/>
-                <element inactive_on_update="false" label="English" sequence="2" value="en"/>
-                <element inactive_on_update="false" label="French" sequence="3" value="fr"/>
-                <element inactive_on_update="false" label="German" sequence="4" value="de"/>
-                <element inactive_on_update="false" label="Hindi" sequence="5" value="hi"/>
-                <element inactive_on_update="false" label="Icelandic" sequence="6" value="is"/>
-                <element inactive_on_update="false" label="Italian" sequence="7" value="it"/>
-                <element inactive_on_update="false" label="Japanese" sequence="8" value="ja"/>
-                <element inactive_on_update="false" label="Korean" sequence="9" value="ko"/>
-                <element inactive_on_update="false" label="Norwegian" sequence="10" value="nb"/>
-                <element inactive_on_update="false" label="Polish" sequence="11" value="pl"/>
-                <element inactive_on_update="false" label="Romanian" sequence="12" value="ro"/>
-                <element inactive_on_update="false" label="Russian" sequence="13" value="ru"/>
-                <element inactive_on_update="false" label="Spanish" sequence="14" value="es"/>
-                <element inactive_on_update="false" label="Swedish" sequence="15" value="sv"/>
-                <element inactive_on_update="false" label="Turkish" sequence="16" value="tr"/>
-                <element inactive_on_update="false" label="Welsh" sequence="17" value="cy"/>
-            </choice>
-        </element>
         <element choice="1" choice_field="time_zone" choice_table="sys_user" hint="Set the time zone to use as the Line Schedule base time" label="Time Zone" mandatory="true" max_length="40" name="time_zone" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Canada/Atlantic" sequence="0" value="Canada/Atlantic"/>
@@ -66,6 +45,9 @@
             <element name="first_flow"/>
         </index>
         <index name="index2">
+            <element name="language"/>
+        </index>
+        <index name="index3">
             <element name="line_schedule"/>
         </index>
     </element>
