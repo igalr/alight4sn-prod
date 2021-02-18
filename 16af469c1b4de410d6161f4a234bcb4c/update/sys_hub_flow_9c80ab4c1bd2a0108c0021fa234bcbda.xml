@@ -71,15 +71,15 @@
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"table":"sys_trigger_runner_mapping","id":"9486afc01b16a0108c0021fa234bcb50","name":"trigger_runner","type":"java.util.Collections$UnmodifiableMap"}</data>
+        <data>{"table":"sys_trigger_runner_mapping","id":"9486afc01b16a0108c0021fa234bcb50","name":"trigger_runner","type":"java.util.HashMap"}</data>
         <identifier>9c80ab4c1bd2a0108c0021fa234bcbda</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 16:29:07</sys_created_on>
         <sys_id>9486afc01b16a0108c0021fa234bcb50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-02-08 16:29:07</sys_updated_on>
+        <sys_updated_on>2021-02-10 19:14:00</sys_updated_on>
         <trigger display_value="">65c480f41b0a2010d6161f4a234bcb1e</trigger>
     </sys_trigger_runner_mapping>
     <sys_json_chunk action="INSERT_OR_UPDATE">
@@ -92,6 +92,17 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-02-08 16:29:07</sys_created_on>
         <sys_id>1c86afc01b16a0108c0021fa234bcb50</sys_id>
+    </sys_json_chunk>
+    <sys_json_chunk action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MiZGWoTYkAEFVsdC0N1iY2oY+KyjnmaXU2XzUPPEWAtljKEIqH749EIigd31JfG/42XNK+wHxPKN7oYAAAA=</data>
+        <document_id>9486afc01b16a0108c0021fa234bcb50</document_id>
+        <field>trigger_runner</field>
+        <length>144</length>
+        <position>0</position>
+        <source_table>sys_trigger_runner_mapping</source_table>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-02-10 19:14:00</sys_created_on>
+        <sys_id>8b6f92bc1b9660108c0021fa234bcb7e</sys_id>
     </sys_json_chunk>
     <sys_json_chunk action="INSERT_OR_UPDATE">
         <data>H4sIAAAAAAAAAGXLWwqAIBBA0b3MdytwKxGD5fggGUFHLKK99yAo6Pce7ga5MtqYGgYGBaOeZpdTZQPdTc0TYy2UMYYioPrh0wuJBHbXl8T/jpc1r48mRlqE2JA5u9WxEOwH5v2lw4YAAAA=</data>

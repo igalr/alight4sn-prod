@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Queue" max_length="40" name="x_ananc_alight4sn_queue" sizeclass="2" type="collection">
+        <element label="Amazon Queue" mandatory="true" max_length="32" name="amazon_queue" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element hint="If the Callback action is set, the caller will be played this prompt" label="Callback Prompt" max_length="32" name="callback_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
         <element choice="3" default="none" hint="Select who should be recorded in the call" label="Call Record" max_length="40" name="call_record" type="choice">
             <choice>
@@ -12,7 +13,7 @@
         <element hint="Provide a clear description for this Queue" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element hint="If T0 Congested Action is set to Warning Message, the caller will be played this prompt" label="Excessive Wait Prompt" max_length="32" name="excessive_wait_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
         <element hint="If the Hang Up action is set, the caller will be played this prompt" label="Hang Up Prompt" max_length="32" name="hangup_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
-        <element display="true" hint="Defines what the customer will hear if the rep places them on hold" label="Hold Flow" max_length="32" name="hold_flow" reference="x_ananc_alight4sn_lookup" type="reference"/>
+        <element hint="Defines what the customer will hear if the rep places them on hold" label="Hold Flow" max_length="32" name="hold_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;cust_hold&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element choice="3" default="wait" hint="Select the action to take if there are no agents logged in" label="No Agents Action" max_length="40" name="no_agents_action" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Keep Waiting" sequence="1" value="wait"/>
@@ -21,12 +22,12 @@
                 <element inactive_on_update="false" label="Transfer" sequence="4" value="transfer"/>
             </choice>
         </element>
-        <element hint="If an Overflow action has been set, the call will be transferred to this queue" label="Overflow Queue" max_length="32" name="overflow_queue" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="If an Overflow action has been set, the call will be transferred to this queue" label="Overflow Queue" max_length="32" name="overflow_queue" reference="x_ananc_alight4sn_queue" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element default="true" hint="Select if a prompt should be played before transferring the call to the queue" label="Play Queue Prompt" max_length="40" name="play_queue_prompt" type="boolean"/>
         <element hint="Select if a whisper should be played to the rep on call accept" label="Play Whisper" max_length="40" name="play_whisper" type="boolean"/>
-        <element hint="Defines the customer experience and treatment while waiting in queue" label="Queue Flow" mandatory="true" max_length="32" name="queue_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue&quot;" type="reference" use_reference_qualifier="advanced"/>
+        <element hint="Defines the customer experience and treatment while waiting in queue" label="Queue Flow" mandatory="true" max_length="32" name="queue_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;queue_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element hint="Define a unique identifier for this queue" label="Queue ID" mandatory="true" max_length="40" name="queue_id" type="string"/>
-        <element hint="Enter a user friendly Queue name" label="Queue Name" mandatory="true" max_length="40" name="queue_name" type="string"/>
+        <element display="true" hint="Enter a user friendly Queue name" label="Queue Name" mandatory="true" max_length="40" name="queue_name" type="string"/>
         <element hint="If Play Queue Prompt is set, the caller will be played this prompt" label="Queue Prompt" mandatory="true" max_length="32" name="queue_prompt" reference="x_ananc_alight4sn_message" type="reference"/>
         <element hint="Select the ServiceNow schedule that defines when this Queue is open" label="Queue Schedule" max_length="32" name="queue_schedule" reference="cmn_schedule" type="reference"/>
         <element choice="3" default="message" hint="Select the action to take when the call is first placed in queue if the queue is congested" label="T0 Congested Action" max_length="40" name="t0_congested_action" type="choice">
@@ -56,7 +57,7 @@
             </choice>
         </element>
         <element default="300" hint="Calls exceeding this threshold have experienced an extreme wait time" label="T2 Threshold" max_length="40" name="t2_threshold" type="integer"/>
-        <element hint="Defines what the rep hears when the call is accepted" label="Whisper Flow" max_length="32" name="whisper_flow" reference="x_ananc_alight4sn_lookup" type="reference"/>
+        <element hint="Defines what the rep hears when the call is accepted" label="Whisper Flow" max_length="32" name="whisper_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;cust_whisper&quot;" type="reference" use_reference_qualifier="advanced"/>
         <element label="Zone" max_length="40" name="zone" type="string"/>
         <index name="index">
             <element name="hold_flow"/>
@@ -83,6 +84,9 @@
             <element name="queue_schedule"/>
         </index>
         <index name="index9">
+            <element name="amazon_queue"/>
+        </index>
+        <index name="index10">
             <element name="whisper_flow"/>
         </index>
     </element>
