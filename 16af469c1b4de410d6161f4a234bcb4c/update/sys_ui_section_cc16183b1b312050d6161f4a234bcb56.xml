@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8c16183b1b312050d6161f4a234bcb77</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e1d0f1d91b6e28102dda1f09b04bcbde</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <text>In this panel, you define Alight Users.  In the user field, select an existing ServiceNow user.  The user will be automatically created in Amazon Connect.  Most of the fields are Amazon Connect agent properties.  You can maintain them here, and Alight will automatically synchronize them to Amazon Connect.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>8c16183b1b312050d6161f4a234bcb77</element>
+            <element>e1d0f1d91b6e28102dda1f09b04bcbde</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8416183b1b312050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>25d0f1d91b6e28102dda1f09b04bcbe5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0816183b1b312050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e9d0f1d91b6e28102dda1f09b04bcbe5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>user</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8816183b1b312050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>6dd0f1d91b6e28102dda1f09b04bcbe5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,69 +57,69 @@
             <element>routing_profile</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0c16183b1b312050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>edd0f1d91b6e28102dda1f09b04bcbe5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>auto_accept</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8c16183b1b312050d6161f4a234bcb78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
-            <position>5</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0016183b1b312050d6161f4a234bcb79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
-            <sys_user/>
-            <type>.split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8016183b1b312050d6161f4a234bcb79</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>phone_type</element>
-            <position>7</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0416183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>61d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>auto_accept</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e1d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>65d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e5d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -127,13 +127,13 @@
             <element>acw_timeout</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8416183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>69d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -141,13 +141,13 @@
             <element>initial_amazon_connect_password</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0816183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e9d0f1d91b6e28102dda1f09b04bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -155,13 +155,13 @@
             <element>.end_split</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8816183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>6dd0f1d91b6e28102dda1f09b04bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -169,13 +169,13 @@
             <element>ac_security_profile</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>0c16183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>edd0f1d91b6e28102dda1f09b04bcbe6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -183,13 +183,27 @@
             <element>reporting_group</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 20:24:15</sys_created_on>
-            <sys_id>8c16183b1b312050d6161f4a234bcb79</sys_id>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>61d0f1d91b6e28102dda1f09b04bcbe7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 20:24:15</sys_updated_on>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>desk_phone_number</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-24 15:23:07</sys_created_on>
+            <sys_id>e1d0f1d91b6e28102dda1f09b04bcbe7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_alight_user" sys_domain="global" view="Default view">cc16183b1b312050d6161f4a234bcb56</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-24 15:23:07</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

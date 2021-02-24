@@ -3,67 +3,123 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-23 18:43:14</sys_created_on>
-            <sys_id>7ccb298f1bf92c108c0021fa234bcb04</sys_id>
+            <sys_created_on>2021-02-22 20:06:40</sys_created_on>
+            <sys_id>6b8ed0f01b622050d6161f4a234bcb4f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-23 18:43:14</sys_updated_on>
+            <sys_updated_on>2021-02-22 20:06:40</sys_updated_on>
             <text>A Prompt entry defines one speech-to-text prompt used within an Alight Action.  Prompts should be created and modified by developers creating and modifying Alight Actions only.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>7ccb298f1bf92c108c0021fa234bcb04</element>
+            <element>6b8ed0f01b622050d6161f4a234bcb4f</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-23 18:43:14</sys_created_on>
-            <sys_id>70cb298f1bf92c108c0021fa234bcb08</sys_id>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>238ed0f01b622050d6161f4a234bcb54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-23 18:43:14</sys_updated_on>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>prompt_id</element>
+            <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-23 18:43:14</sys_created_on>
-            <sys_id>f0cb298f1bf92c108c0021fa234bcb08</sys_id>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>e78ed0f01b622050d6161f4a234bcb54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-23 18:43:14</sys_updated_on>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>prompt_id</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>6b8ed0f01b622050d6161f4a234bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>2</position>
+            <element>.split</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-23 18:43:14</sys_created_on>
-            <sys_id>74cb298f1bf92c108c0021fa234bcb08</sys_id>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>eb8ed0f01b622050d6161f4a234bcb54</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-23 18:43:14</sys_updated_on>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>action</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>6f8ed0f01b622050d6161f4a234bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>ef8ed0f01b622050d6161f4a234bcb54</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>638ed0f01b622050d6161f4a234bcb55</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>prompt</element>
-            <position>3</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-23 18:43:14</sys_created_on>
-            <sys_id>f4cb298f1bf92c108c0021fa234bcb08</sys_id>
+            <sys_created_on>2021-02-22 20:06:41</sys_created_on>
+            <sys_id>e38ed0f01b622050d6161f4a234bcb55</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_prompt" sys_domain="global" view="Default view">982a654f1bf92c108c0021fa234bcb00</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-23 18:43:14</sys_updated_on>
+            <sys_updated_on>2021-02-22 20:06:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
