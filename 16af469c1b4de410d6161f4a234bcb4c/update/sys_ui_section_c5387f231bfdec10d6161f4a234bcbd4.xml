@@ -3,11 +3,11 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>dbffac5f1b8228508c0021fa234bcb47</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>3f7d51d787e2a010ea687778cebb35b4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <text>Entries in this table will trigger web based screen pops on the rep's desktop.  The screen pop will open up in a browser tab with the name set in "Browser Tab"  If the tab with this name is currently open, it will be reused.
 
 Call Attributes can be used within the URL. Consult Alight documentation for details.</text>
@@ -16,25 +16,25 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>9fffac5f1b8228508c0021fa234bcb47</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>377d51d787e2a010ea687778cebb35b5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <text>Set the filters below to select when the screen pop occurs.  Any blank field will be treated as a wildcard.  If all fields are left blank, the screen pop will occur on every call when the selected call state occurs.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>dbffac5f1b8228508c0021fa234bcb47</element>
+            <element>3f7d51d787e2a010ea687778cebb35b4</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>9bffac5f1b8228508c0021fa234bcb4d</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>bf7d51d787e2a010ea687778cebb35bb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -42,13 +42,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>1fffac5f1b8228508c0021fa234bcb4d</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>337d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -56,13 +56,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>call_state</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>9fffac5f1b8228508c0021fa234bcb4d</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>b37d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -70,13 +70,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>13ffac5f1b8228508c0021fa234bcb4e</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>377d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -84,13 +84,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>browser_tab</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>93ffac5f1b8228508c0021fa234bcb4e</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>b77d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -98,13 +98,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>17ffac5f1b8228508c0021fa234bcb4e</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>3b7d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -112,27 +112,27 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>api_call</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>97ffac5f1b8228508c0021fa234bcb4e</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>bb7d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>9fffac5f1b8228508c0021fa234bcb47</element>
+            <element>377d51d787e2a010ea687778cebb35b5</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>97ffac5f1b8228508c0021fa234bcb67</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>3f7d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -140,13 +140,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>.begin_split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>2bffac5f1b8228508c0021fa234bcb67</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>bf7d51d787e2a010ea687778cebb35bc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -154,13 +154,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>reason</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>abffac5f1b8228508c0021fa234bcb67</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>337d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -168,13 +168,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>queue</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>2fffac5f1b8228508c0021fa234bcb67</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>b37d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -182,13 +182,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>zone</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>afffac5f1b8228508c0021fa234bcb67</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>377d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -196,13 +196,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>.split</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>23ffac5f1b8228508c0021fa234bcb68</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>b77d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -210,13 +210,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>subreason</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>a3ffac5f1b8228508c0021fa234bcb68</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>3b7d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -224,13 +224,13 @@ Call Attributes can be used within the URL. Consult Alight documentation for det
             <element>language</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-05 19:16:16</sys_created_on>
-            <sys_id>27ffac5f1b8228508c0021fa234bcb68</sys_id>
+            <sys_created_on>2021-03-02 19:06:29</sys_created_on>
+            <sys_id>bb7d51d787e2a010ea687778cebb35bd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_screen_pop" sys_domain="global" view="Default view">c5387f231bfdec10d6161f4a234bcbd4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-05 19:16:16</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:06:29</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

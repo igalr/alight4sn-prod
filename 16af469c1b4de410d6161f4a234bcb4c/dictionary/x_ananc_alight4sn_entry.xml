@@ -6,7 +6,7 @@
         <element hint="Provide a clear description for this Line" label="Description" mandatory="true" max_length="500" name="description" type="string"/>
         <element default="default" hint="Enter the Amazon Connect phone number (DNIS) that this entry applies to" label="Dialed Number" mandatory="true" max_length="40" name="dialed_number" type="string"/>
         <element hint="The flow that you select here will run prior to entering the Call Flow table" label="First Flow" mandatory="true" max_length="32" name="first_flow" reference="x_ananc_alight4sn_lookup" reference_qual="javascript:&quot;action=&quot;+&quot;first_flow&quot;" type="reference" use_reference_qualifier="advanced"/>
-        <element label="Language" max_length="32" name="language" reference="x_ananc_alight4sn_alight_language" type="reference"/>
+        <element hint="Select the text-to-speech language for this line" label="Language" mandatory="true" max_length="32" name="language" reference="x_ananc_alight4sn_alight_language" type="reference"/>
         <element hint="Select the Path in the Call Flow table where you want the call flow to start if the Line is closed" label="Line Closed Entry Point" mandatory="true" max_length="40" name="line_closed_entry_point" type="string"/>
         <element hint="Enter a user friendly Line Name" label="Line Name" mandatory="true" max_length="40" name="line_name" type="string"/>
         <element hint="Select the ServiceNow schedule that defines when this Line is open" label="Line Schedule" mandatory="true" max_length="32" name="line_schedule" reference="cmn_schedule" type="reference"/>

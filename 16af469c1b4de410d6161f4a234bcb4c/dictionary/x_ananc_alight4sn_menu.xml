@@ -9,7 +9,7 @@
                 <element inactive_on_update="false" label="Return To Main" sequence="2" value="main"/>
             </choice>
         </element>
-        <element hint="Enter the speech-to-text prompt for this menu" label="Prompt" mandatory="true" max_length="500" name="prompt" type="string"/>
+        <element hint="Enter the text-to-speech prompt for this menu" label="Prompt" mandatory="true" max_length="500" name="prompt" type="string"/>
         <element choice="3" default="invalid" hint="Select the desired behavior for the Star (&quot;*&quot;) key" label="Star" max_length="40" name="star" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Invalid" sequence="1" value="invalid"/>

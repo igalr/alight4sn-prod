@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>042d08e31b162c10d6161f4a234bcbed</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>5c3cb8df8762a010ea687778cebb3521</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <text>Entries in this table defines the behavior of a queue as well as properties that are normally defined on a per queue basis (such as call recording).  This configuration lets you set how to treat conditions such as congestion, out of hours handling and zero agents logged in.</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>042d08e31b162c10d6161f4a234bcbed</element>
+            <element>5c3cb8df8762a010ea687778cebb3521</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>082d08e31b162c10d6161f4a234bcbf5</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>2c3cb8df8762a010ea687778cebb354d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>882d08e31b162c10d6161f4a234bcbf5</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>ac3cb8df8762a010ea687778cebb354d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>queue_id</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>0c2d08e31b162c10d6161f4a234bcbf5</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>203cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>8c2d08e31b162c10d6161f4a234bcbf5</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a03cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -71,13 +71,13 @@
             <element>queue_name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>002d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>243cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -85,13 +85,13 @@
             <element>.end_split</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>802d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a43cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -99,13 +99,13 @@
             <element>.begin_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>042d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>283cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -113,13 +113,13 @@
             <element>amazon_queue</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>842d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a83cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -127,13 +127,13 @@
             <element>queue_schedule</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>082d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>2c3cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -141,13 +141,13 @@
             <element>play_queue_prompt</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>882d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>ac3cb8df8762a010ea687778cebb354e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -155,13 +155,13 @@
             <element>hold_flow</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>0c2d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>203cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -169,13 +169,13 @@
             <element>.split</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>8c2d08e31b162c10d6161f4a234bcbf6</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a03cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -183,13 +183,13 @@
             <element>queue_flow</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>002d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>243cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -197,13 +197,13 @@
             <element>call_record</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>802d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a43cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -211,13 +211,13 @@
             <element>play_whisper</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>042d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>283cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -225,13 +225,13 @@
             <element>whisper_flow</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>842d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>a83cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -239,13 +239,13 @@
             <element>.end_split</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>082d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>2c3cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -253,27 +253,27 @@
             <element>description</element>
             <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>882d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 16:40:59</sys_created_on>
+            <sys_id>ac3cb8df8762a010ea687778cebb354f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 16:40:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>zone</element>
+            <element>interrupt_prompt</element>
             <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-18 21:38:07</sys_created_on>
-            <sys_id>0c2d08e31b162c10d6161f4a234bcbf7</sys_id>
+            <sys_created_on>2021-03-02 18:54:21</sys_created_on>
+            <sys_id>06ba5d1787e2a010ea687778cebb3588</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_queue" sys_domain="global" view="Default view">075d1f1b1bf96c108c0021fa234bcb95</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-18 21:38:07</sys_updated_on>
+            <sys_updated_on>2021-03-02 18:54:21</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

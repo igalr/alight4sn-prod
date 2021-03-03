@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>0053a4f31b712050d6161f4a234bcb10</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>8c32a99b87e2a010ea687778cebb3528</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
-            <text>The Polly Languages table is a reference table listing the details of all the languages that can potentially be supported by Alight.  Polly is the Amazon text-to-speech engine. Within the supported languages set, there are variants (i.e. US English vs. British English) and multiple voices for some languages.</text>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
+            <text>The Polly Languages table is a reference table listing the details of all the languages that can potentially be supported by Alight.  Polly is the Amazon text-to-speech engine. Within the supported languages set, there are variants (i.e. US English vs. British English) and multiple voices for many languages and variants.  An entry is required for each voice you wish to support</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>0053a4f31b712050d6161f4a234bcb10</element>
+            <element>8c32a99b87e2a010ea687778cebb3528</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>4c53a4f31b712050d6161f4a234bcb77</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>4032a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>cc53a4f31b712050d6161f4a234bcb77</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>c032a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -43,27 +43,27 @@
             <element>language</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>4053a4f31b712050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>4432a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>variant</element>
+            <element>voice</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>c053a4f31b712050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>c432a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -71,13 +71,13 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>4453a4f31b712050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>4832a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -85,41 +85,13 @@
             <element>locale</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>c453a4f31b712050d6161f4a234bcb78</sys_id>
+            <sys_created_on>2021-03-02 19:26:59</sys_created_on>
+            <sys_id>c832a99b87e2a010ea687778cebb352d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>voice</element>
-            <position>6</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>4853a4f31b712050d6161f4a234bcb78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>gender</element>
-            <position>7</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-01-25 21:22:08</sys_created_on>
-            <sys_id>c853a4f31b712050d6161f4a234bcb78</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_polly_languages" sys_domain="global" view="Default view">bc55e8be1b316c10d6161f4a234bcb21</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-01-25 21:22:08</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:26:59</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

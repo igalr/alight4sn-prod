@@ -3,25 +3,25 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-11 17:08:31</sys_created_on>
-            <sys_id>f24c47cd1bd2a0108c0021fa234bcba8</sys_id>
+            <sys_created_on>2021-03-02 19:17:53</sys_created_on>
+            <sys_id>7a10615b87e2a010ea687778cebb359a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-11 17:08:31</sys_updated_on>
-            <text>Entries in this table define Alight Zones.  Alight Zones are used to partition a large deployment into more manageable pieces that are ACL controlled.</text>
+            <sys_updated_on>2021-03-02 19:17:53</sys_updated_on>
+            <text>Entries in this table define Alight Zones.  Alight Zones are used to partition a large deployment into more manageable pieces that are ACL controlled.  For deployments that are not partitioned, leave this table empty</text>
             <type display_value="Section Details">19756e5ec3313000bac1addbdfba8f18</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>f24c47cd1bd2a0108c0021fa234bcba8</element>
+            <element>7a10615b87e2a010ea687778cebb359a</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-11 17:08:31</sys_created_on>
-            <sys_id>b64c47cd1bd2a0108c0021fa234bcbab</sys_id>
+            <sys_created_on>2021-03-02 19:17:53</sys_created_on>
+            <sys_id>b210615b87e2a010ea687778cebb35cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_zone" sys_domain="global" view="Default view">5a188fc91bd2a0108c0021fa234bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-11 17:08:31</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:17:53</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -29,13 +29,13 @@
             <element>zone_id</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-11 17:08:31</sys_created_on>
-            <sys_id>3a4c47cd1bd2a0108c0021fa234bcbab</sys_id>
+            <sys_created_on>2021-03-02 19:17:53</sys_created_on>
+            <sys_id>3610615b87e2a010ea687778cebb35cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_zone" sys_domain="global" view="Default view">5a188fc91bd2a0108c0021fa234bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-11 17:08:31</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:17:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -43,13 +43,13 @@
             <element>name</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-11 17:08:31</sys_created_on>
-            <sys_id>ba4c47cd1bd2a0108c0021fa234bcbab</sys_id>
+            <sys_created_on>2021-03-02 19:17:53</sys_created_on>
+            <sys_id>b610615b87e2a010ea687778cebb35cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_zone" sys_domain="global" view="Default view">5a188fc91bd2a0108c0021fa234bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-11 17:08:31</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:17:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -57,13 +57,13 @@
             <element>description</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-02-11 17:08:31</sys_created_on>
-            <sys_id>3e4c47cd1bd2a0108c0021fa234bcbab</sys_id>
+            <sys_created_on>2021-03-02 19:17:53</sys_created_on>
+            <sys_id>3a10615b87e2a010ea687778cebb35cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_ananc_alight4sn_zone" sys_domain="global" view="Default view">5a188fc91bd2a0108c0021fa234bcb3a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-02-11 17:08:31</sys_updated_on>
+            <sys_updated_on>2021-03-02 19:17:53</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
