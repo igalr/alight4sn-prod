@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="x_ananc_alight4sn.message_user" name="x_ananc_alight4sn.message_user">398474e91bc9e4108c0021fa234bcba4</role>
+        <role/>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>david.stefferud</sys_created_by>
         <sys_created_on>2020-12-12 16:03:56</sys_created_on>

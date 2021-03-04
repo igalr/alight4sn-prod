@@ -34,7 +34,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-12-09 02:17:28</sys_updated_on>
         <update_access>false</update_access>
-        <user_role display_value="x_ananc_alight4sn.directory_user" name="x_ananc_alight4sn.directory_user">ce9a96981bcde410d6161f4a234bcbec</user_role>
+        <user_role/>
         <ws_access>true</ws_access>
     </sys_db_object>
 </record_update>
